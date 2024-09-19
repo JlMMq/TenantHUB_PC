@@ -1,0 +1,17 @@
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\bin\Debug\net8.0\Tenant_BL.deps.json
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\bin\Debug\net8.0\Tenant_BL.dll
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\bin\Debug\net8.0\Tenant_BL.pdb
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\bin\Debug\net8.0\Tenant_ADO.dll
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\bin\Debug\net8.0\Tenant_BE.dll
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\bin\Debug\net8.0\Tenant_ADO.pdb
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\bin\Debug\net8.0\Tenant_BE.pdb
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\Tenant_BL.csproj.AssemblyReference.cache
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\Tenant_BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\Tenant_BL.AssemblyInfoInputs.cache
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\Tenant_BL.AssemblyInfo.cs
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\Tenant_BL.csproj.CoreCompileInputs.cache
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\Tenant_BL.csproj.Up2Date
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\Tenant_BL.dll
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\refint\Tenant_BL.dll
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\Tenant_BL.pdb
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\ref\Tenant_BL.dll

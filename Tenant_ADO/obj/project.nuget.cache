@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1nN5Yb0MYGegwX4luUIZrtIv7ROx4+T+r8uLVxkWEy+EyI1RDQjrdbLAtFcRLY+pZBAqQzmYGBGxIwFRfxkxjA==",
+  "success": true,
+  "projectFilePath": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant_ADO\\Tenant_ADO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jlmal\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\jlmal\\.nuget\\packages\\restsharp\\112.0.0\\restsharp.112.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
