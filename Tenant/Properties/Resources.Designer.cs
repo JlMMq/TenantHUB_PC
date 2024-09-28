@@ -213,6 +213,26 @@ namespace Tenant.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngLupa_100px {
+            get {
+                object obj = ResourceManager.GetObject("pngLupa_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngMultitud_100px {
+            get {
+                object obj = ResourceManager.GetObject("pngMultitud_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngPeople_35px {
             get {
                 object obj = ResourceManager.GetObject("pngPeople_35px", resourceCulture);
@@ -276,6 +296,46 @@ namespace Tenant.Properties {
         internal static System.Drawing.Bitmap pngVerificarC_30px {
             get {
                 object obj = ResourceManager.GetObject("pngVerificarC_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pnlbckImgInquilino_1_1 {
+            get {
+                object obj = ResourceManager.GetObject("pnlbckImgInquilino_1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pnlbckImgInquilino_1_11 {
+            get {
+                object obj = ResourceManager.GetObject("pnlbckImgInquilino_1_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pnlbckImgInquilino_2 {
+            get {
+                object obj = ResourceManager.GetObject("pnlbckImgInquilino_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pnlbckImgInquilino_3 {
+            get {
+                object obj = ResourceManager.GetObject("pnlbckImgInquilino_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

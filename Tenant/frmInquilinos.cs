@@ -26,6 +26,9 @@ namespace Tenant
             var borderStyle = this.FormBorderStyle;
             this.FormBorderStyle = FormBorderStyle.None;
             this.FormBorderStyle = borderStyle;
+
+            //this.lblpnlTotalInquilinos.Parent = this.imgpnl1;
+
         }
 
         private void lblTittle_Paint(object sender, PaintEventArgs e)
