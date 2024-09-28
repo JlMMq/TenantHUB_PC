@@ -36,10 +36,12 @@
             btnMinimize = new Button();
             logo = new PictureBox();
             pnlNavBar = new Panel();
+            pnlContratos = new Panel();
+            btnContratos = new Button();
             pnlCasas = new Panel();
-            button1 = new Button();
+            btnPropiedades = new Button();
             pnlProp = new Panel();
-            btnProp = new Button();
+            btnPropietarios = new Button();
             pnlInqui = new Panel();
             btnInqui = new Button();
             pnlHome = new Panel();
@@ -49,6 +51,7 @@
             pnlControlBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logo).BeginInit();
             pnlNavBar.SuspendLayout();
+            pnlContratos.SuspendLayout();
             pnlCasas.SuspendLayout();
             pnlProp.SuspendLayout();
             pnlInqui.SuspendLayout();
@@ -68,16 +71,20 @@
             pnlControlBox.Dock = DockStyle.Top;
             pnlControlBox.Location = new Point(0, 0);
             pnlControlBox.Name = "pnlControlBox";
-            pnlControlBox.Size = new Size(1920, 30);
+            pnlControlBox.Size = new Size(1360, 30);
             pnlControlBox.TabIndex = 1;
+            pnlControlBox.DoubleClick += pnlControlBox_DoubleClick;
+            pnlControlBox.MouseDown += pnlControlBox_MouseDown;
+            pnlControlBox.MouseMove += pnlControlBox_MouseMove;
             // 
             // btnMaxNor
             // 
+            btnMaxNor.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btnMaxNor.FlatAppearance.BorderColor = Color.White;
             btnMaxNor.FlatAppearance.BorderSize = 0;
             btnMaxNor.FlatStyle = FlatStyle.Flat;
             btnMaxNor.Image = Properties.Resources.controlMaxNormal_20px;
-            btnMaxNor.Location = new Point(1809, 1);
+            btnMaxNor.Location = new Point(1249, 1);
             btnMaxNor.Name = "btnMaxNor";
             btnMaxNor.Size = new Size(56, 29);
             btnMaxNor.TabIndex = 7;
@@ -86,11 +93,12 @@
             // 
             // btnCerrar
             // 
+            btnCerrar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btnCerrar.FlatAppearance.BorderColor = Color.White;
             btnCerrar.FlatAppearance.BorderSize = 0;
             btnCerrar.FlatStyle = FlatStyle.Flat;
             btnCerrar.Image = Properties.Resources.controlCerrar_15px;
-            btnCerrar.Location = new Point(1864, 1);
+            btnCerrar.Location = new Point(1304, 1);
             btnCerrar.Name = "btnCerrar";
             btnCerrar.Size = new Size(56, 29);
             btnCerrar.TabIndex = 6;
@@ -99,11 +107,12 @@
             // 
             // btnMaxMax
             // 
+            btnMaxMax.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btnMaxMax.FlatAppearance.BorderColor = Color.White;
             btnMaxMax.FlatAppearance.BorderSize = 0;
             btnMaxMax.FlatStyle = FlatStyle.Flat;
             btnMaxMax.Image = Properties.Resources.controlMaxMax_20px;
-            btnMaxMax.Location = new Point(1808, 1);
+            btnMaxMax.Location = new Point(1249, 1);
             btnMaxMax.Name = "btnMaxMax";
             btnMaxMax.Size = new Size(56, 29);
             btnMaxMax.TabIndex = 5;
@@ -113,11 +122,12 @@
             // 
             // btnMinimize
             // 
+            btnMinimize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btnMinimize.FlatAppearance.BorderColor = Color.White;
             btnMinimize.FlatAppearance.BorderSize = 0;
             btnMinimize.FlatStyle = FlatStyle.Flat;
             btnMinimize.Image = Properties.Resources.controlMin_20px;
-            btnMinimize.Location = new Point(1752, 1);
+            btnMinimize.Location = new Point(1192, 1);
             btnMinimize.Name = "btnMinimize";
             btnMinimize.Size = new Size(56, 29);
             btnMinimize.TabIndex = 1;
@@ -137,6 +147,7 @@
             // pnlNavBar
             // 
             pnlNavBar.BackColor = Color.FromArgb(20, 120, 153);
+            pnlNavBar.Controls.Add(pnlContratos);
             pnlNavBar.Controls.Add(pnlCasas);
             pnlNavBar.Controls.Add(pnlProp);
             pnlNavBar.Controls.Add(pnlInqui);
@@ -145,67 +156,96 @@
             pnlNavBar.Dock = DockStyle.Left;
             pnlNavBar.Location = new Point(0, 30);
             pnlNavBar.Name = "pnlNavBar";
-            pnlNavBar.Size = new Size(261, 1002);
+            pnlNavBar.Size = new Size(261, 738);
             pnlNavBar.TabIndex = 3;
+            // 
+            // pnlContratos
+            // 
+            pnlContratos.Controls.Add(btnContratos);
+            pnlContratos.Location = new Point(0, 315);
+            pnlContratos.Name = "pnlContratos";
+            pnlContratos.Size = new Size(261, 55);
+            pnlContratos.TabIndex = 5;
+            // 
+            // btnContratos
+            // 
+            btnContratos.BackColor = Color.FromArgb(20, 120, 153);
+            btnContratos.FlatAppearance.BorderSize = 0;
+            btnContratos.FlatStyle = FlatStyle.Flat;
+            btnContratos.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnContratos.ForeColor = SystemColors.ControlLightLight;
+            btnContratos.Image = Properties.Resources.pngContract_35px;
+            btnContratos.ImageAlign = ContentAlignment.MiddleLeft;
+            btnContratos.Location = new Point(0, -3);
+            btnContratos.Name = "btnContratos";
+            btnContratos.Padding = new Padding(25, 0, 0, 0);
+            btnContratos.Size = new Size(261, 55);
+            btnContratos.TabIndex = 0;
+            btnContratos.Text = "             Contratos";
+            btnContratos.TextAlign = ContentAlignment.MiddleLeft;
+            btnContratos.UseVisualStyleBackColor = false;
+            btnContratos.Click += btnContratos_Click;
             // 
             // pnlCasas
             // 
-            pnlCasas.Controls.Add(button1);
-            pnlCasas.Location = new Point(0, 228);
+            pnlCasas.Controls.Add(btnPropiedades);
+            pnlCasas.Location = new Point(0, 258);
             pnlCasas.Name = "pnlCasas";
-            pnlCasas.Size = new Size(261, 45);
+            pnlCasas.Size = new Size(261, 55);
             pnlCasas.TabIndex = 4;
             // 
-            // button1
+            // btnPropiedades
             // 
-            button1.BackColor = Color.FromArgb(20, 120, 153);
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Image = Properties.Resources.pngReside_35px;
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(0, -3);
-            button1.Name = "button1";
-            button1.Padding = new Padding(25, 0, 0, 0);
-            button1.Size = new Size(261, 45);
-            button1.TabIndex = 0;
-            button1.Text = "             Propiedades";
-            button1.TextAlign = ContentAlignment.MiddleLeft;
-            button1.UseVisualStyleBackColor = false;
+            btnPropiedades.BackColor = Color.FromArgb(20, 120, 153);
+            btnPropiedades.FlatAppearance.BorderSize = 0;
+            btnPropiedades.FlatStyle = FlatStyle.Flat;
+            btnPropiedades.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnPropiedades.ForeColor = SystemColors.ControlLightLight;
+            btnPropiedades.Image = Properties.Resources.pngReside_35px;
+            btnPropiedades.ImageAlign = ContentAlignment.MiddleLeft;
+            btnPropiedades.Location = new Point(0, -3);
+            btnPropiedades.Name = "btnPropiedades";
+            btnPropiedades.Padding = new Padding(25, 0, 0, 0);
+            btnPropiedades.Size = new Size(261, 55);
+            btnPropiedades.TabIndex = 0;
+            btnPropiedades.Text = "             Propiedades";
+            btnPropiedades.TextAlign = ContentAlignment.MiddleLeft;
+            btnPropiedades.UseVisualStyleBackColor = false;
+            btnPropiedades.Click += btnPropiedades_Click;
             // 
             // pnlProp
             // 
-            pnlProp.Controls.Add(btnProp);
-            pnlProp.Location = new Point(0, 181);
+            pnlProp.Controls.Add(btnPropietarios);
+            pnlProp.Location = new Point(0, 201);
             pnlProp.Name = "pnlProp";
-            pnlProp.Size = new Size(261, 45);
+            pnlProp.Size = new Size(261, 55);
             pnlProp.TabIndex = 3;
             // 
-            // btnProp
+            // btnPropietarios
             // 
-            btnProp.BackColor = Color.FromArgb(20, 120, 153);
-            btnProp.FlatAppearance.BorderSize = 0;
-            btnProp.FlatStyle = FlatStyle.Flat;
-            btnProp.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnProp.ForeColor = SystemColors.ControlLightLight;
-            btnProp.Image = Properties.Resources.pngProp_35px1;
-            btnProp.ImageAlign = ContentAlignment.MiddleLeft;
-            btnProp.Location = new Point(0, -3);
-            btnProp.Name = "btnProp";
-            btnProp.Padding = new Padding(25, 0, 0, 0);
-            btnProp.Size = new Size(261, 45);
-            btnProp.TabIndex = 0;
-            btnProp.Text = "             Propietarios";
-            btnProp.TextAlign = ContentAlignment.MiddleLeft;
-            btnProp.UseVisualStyleBackColor = false;
+            btnPropietarios.BackColor = Color.FromArgb(20, 120, 153);
+            btnPropietarios.FlatAppearance.BorderSize = 0;
+            btnPropietarios.FlatStyle = FlatStyle.Flat;
+            btnPropietarios.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnPropietarios.ForeColor = SystemColors.ControlLightLight;
+            btnPropietarios.Image = Properties.Resources.pngProp_35px1;
+            btnPropietarios.ImageAlign = ContentAlignment.MiddleLeft;
+            btnPropietarios.Location = new Point(0, -3);
+            btnPropietarios.Name = "btnPropietarios";
+            btnPropietarios.Padding = new Padding(25, 0, 0, 0);
+            btnPropietarios.Size = new Size(261, 55);
+            btnPropietarios.TabIndex = 0;
+            btnPropietarios.Text = "             Propietarios";
+            btnPropietarios.TextAlign = ContentAlignment.MiddleLeft;
+            btnPropietarios.UseVisualStyleBackColor = false;
+            btnPropietarios.Click += btnProp_Click;
             // 
             // pnlInqui
             // 
             pnlInqui.Controls.Add(btnInqui);
-            pnlInqui.Location = new Point(0, 133);
+            pnlInqui.Location = new Point(0, 144);
             pnlInqui.Name = "pnlInqui";
-            pnlInqui.Size = new Size(261, 45);
+            pnlInqui.Size = new Size(261, 55);
             pnlInqui.TabIndex = 2;
             // 
             // btnInqui
@@ -220,20 +260,20 @@
             btnInqui.Location = new Point(0, -3);
             btnInqui.Name = "btnInqui";
             btnInqui.Padding = new Padding(25, 0, 0, 0);
-            btnInqui.Size = new Size(261, 45);
+            btnInqui.Size = new Size(261, 55);
             btnInqui.TabIndex = 0;
             btnInqui.Text = "             Inquilinos";
             btnInqui.TextAlign = ContentAlignment.MiddleLeft;
             btnInqui.UseVisualStyleBackColor = false;
+            btnInqui.Click += btnInqui_Click;
             // 
             // pnlHome
             // 
             pnlHome.Controls.Add(btnHome);
             pnlHome.Location = new Point(0, 87);
             pnlHome.Name = "pnlHome";
-            pnlHome.Size = new Size(261, 45);
+            pnlHome.Size = new Size(261, 55);
             pnlHome.TabIndex = 1;
-            pnlHome.Paint += pnlHome_Paint;
             // 
             // btnHome
             // 
@@ -247,11 +287,12 @@
             btnHome.Location = new Point(0, -3);
             btnHome.Name = "btnHome";
             btnHome.Padding = new Padding(25, 0, 0, 0);
-            btnHome.Size = new Size(261, 45);
+            btnHome.Size = new Size(261, 55);
             btnHome.TabIndex = 0;
             btnHome.Text = "             Inicio";
             btnHome.TextAlign = ContentAlignment.MiddleLeft;
             btnHome.UseVisualStyleBackColor = false;
+            btnHome.Click += btnHome_Click;
             // 
             // pnlLogo
             // 
@@ -275,7 +316,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1920, 1032);
+            ClientSize = new Size(1360, 768);
             Controls.Add(pnlNavBar);
             Controls.Add(pnlControlBox);
             FormBorderStyle = FormBorderStyle.None;
@@ -284,9 +325,11 @@
             Name = "frmMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TenantHub";
+            WindowState = FormWindowState.Maximized;
             pnlControlBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)logo).EndInit();
             pnlNavBar.ResumeLayout(false);
+            pnlContratos.ResumeLayout(false);
             pnlCasas.ResumeLayout(false);
             pnlProp.ResumeLayout(false);
             pnlInqui.ResumeLayout(false);
@@ -312,8 +355,10 @@
         private Button btnInqui;
         private Panel pnlInqui;
         private Panel pnlProp;
-        private Button btnProp;
+        private Button btnPropietarios;
         private Panel pnlCasas;
-        private Button button1;
+        private Button btnPropiedades;
+        private Panel pnlContratos;
+        private Button btnContratos;
     }
 }

@@ -173,6 +173,26 @@ namespace Tenant.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngContract_35px {
+            get {
+                object obj = ResourceManager.GetObject("pngContract_35px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngContract_70px {
+            get {
+                object obj = ResourceManager.GetObject("pngContract_70px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngEliminarC_25px {
             get {
                 object obj = ResourceManager.GetObject("pngEliminarC_25px", resourceCulture);
@@ -196,6 +216,26 @@ namespace Tenant.Properties {
         internal static System.Drawing.Bitmap pngPeople_35px {
             get {
                 object obj = ResourceManager.GetObject("pngPeople_35px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngPeople_70px {
+            get {
+                object obj = ResourceManager.GetObject("pngPeople_70px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngPeopleg_70px {
+            get {
+                object obj = ResourceManager.GetObject("pngPeopleg_70px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -266,6 +306,26 @@ namespace Tenant.Properties {
         internal static System.Drawing.Bitmap Tenant_logo_rw {
             get {
                 object obj = ResourceManager.GetObject("Tenant_logo_rw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tittleBannerFade {
+            get {
+                object obj = ResourceManager.GetObject("tittleBannerFade", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tittleBannerFade2 {
+            get {
+                object obj = ResourceManager.GetObject("tittleBannerFade2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

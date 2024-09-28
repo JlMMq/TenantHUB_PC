@@ -23,7 +23,8 @@ namespace Tenant
 
         frmConfig _frmConfig;
         frmMain _frmMain;
-        
+        frmDashboard _frmDash;
+
         public frmLoad()
         {
             InitializeComponent();
@@ -95,6 +96,10 @@ namespace Tenant
                 {
                     _frmMain = new frmMain();
                     _frmMain.Show();
+                    _frmDash = new frmDashboard();
+                    _frmDash.MdiParent = _frmMain;
+                    _frmDash.Show();
+                    
                     _frmMain.FormClosed += EndApplication;
                     this.Hide();
                 }));

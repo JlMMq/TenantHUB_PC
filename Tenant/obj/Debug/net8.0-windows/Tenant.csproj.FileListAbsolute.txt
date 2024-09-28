@@ -28,3 +28,8 @@ D:\Proyectos\TenantHub\TenantHub\Tenant\bin\Debug\net8.0-windows\Tenant_ADO.pdb
 D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.frmConfig.resources
 D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.frmMain.resources
 D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.sourcelink.json
+D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.frmDashboard.resources
+D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.frmInquilinos.resources
+D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.frmContratos.resources
+D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.frmPropiedades.resources
+D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.frmPropietarios.resources

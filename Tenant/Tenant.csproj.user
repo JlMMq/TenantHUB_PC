@@ -4,10 +4,25 @@
     <Compile Update="frmConfig.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmContratos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmInquilinos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmLoad.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmPropiedades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmPropietarios.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
