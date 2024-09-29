@@ -154,8 +154,11 @@
   <data name="pnlbckImgInquilino_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pnlbckImgInquilino_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngPeople_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img3\pngPeople_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngLupa_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngLupa_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngAdd_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngAdd_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="controlMaxMax_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\controlMaxMax_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -168,6 +171,12 @@
   </data>
   <data name="pngProp_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngProp_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngVolver_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngVolver_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tittleBannerFade2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tittleBannerFade2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tenant_logo_rw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\Tenant_logo_rw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,8 +196,14 @@
   <data name="pngProp_35px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngProp_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tittleBannerFade2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tittleBannerFade2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngAdd_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngAdd_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngBorrar_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngBorrar_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngPeople_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngPeople_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngPeopleg_70px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngPeopleg_70px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,6 +217,9 @@
   <data name="line" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pngBorrar_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngBorrar_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="controlMaxNormal_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\controlMaxNormal_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -214,7 +232,7 @@
   <data name="back_patron2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back_patron2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngLupa_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img3\pngLupa_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngVolver_28px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngVolver_28px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

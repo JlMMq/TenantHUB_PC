@@ -25,5 +25,8 @@
     <Compile Update="frmPropietarios.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ucAddInquilino.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

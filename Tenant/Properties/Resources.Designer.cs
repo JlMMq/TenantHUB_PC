@@ -153,6 +153,46 @@ namespace Tenant.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngAdd_20px {
+            get {
+                object obj = ResourceManager.GetObject("pngAdd_20px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngAdd_35px {
+            get {
+                object obj = ResourceManager.GetObject("pngAdd_35px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngBorrar_20px {
+            get {
+                object obj = ResourceManager.GetObject("pngBorrar_20px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngBorrar_35px {
+            get {
+                object obj = ResourceManager.GetObject("pngBorrar_35px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngConfig_35px {
             get {
                 object obj = ResourceManager.GetObject("pngConfig_35px", resourceCulture);
@@ -296,6 +336,26 @@ namespace Tenant.Properties {
         internal static System.Drawing.Bitmap pngVerificarC_30px {
             get {
                 object obj = ResourceManager.GetObject("pngVerificarC_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngVolver_28px {
+            get {
+                object obj = ResourceManager.GetObject("pngVolver_28px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngVolver_35px {
+            get {
+                object obj = ResourceManager.GetObject("pngVolver_35px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

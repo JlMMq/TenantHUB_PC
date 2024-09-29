@@ -33,3 +33,4 @@ D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.frmInqui
 D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.frmContratos.resources
 D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.frmPropiedades.resources
 D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.frmPropietarios.resources
+D:\Proyectos\TenantHub\TenantHub\Tenant\obj\Debug\net8.0-windows\Tenant.ucAddInquilino.resources

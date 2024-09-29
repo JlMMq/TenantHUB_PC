@@ -15,3 +15,4 @@ D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\Tenant_BL.dll
 D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\refint\Tenant_BL.dll
 D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\Tenant_BL.pdb
 D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\ref\Tenant_BL.dll
+D:\Proyectos\TenantHub\TenantHub\Tenant_BL\obj\Debug\net8.0\Tenant_BL.sourcelink.json

@@ -40,6 +40,16 @@ namespace Tenant
             e.Graphics.DrawString("Inquilinos", _font, _brush, 0, 0);
         }
 
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            //pnlAdd.Visible = true;
+        }
+
+        private void btnABack_Click(object sender, EventArgs e)
+        {
+            //pnlAdd.Visible = false;
+        }
+
         //private void tbpMain_Paint(object sender, PaintEventArgs e)
         //{
         //    Graphics g = e.Graphics;

@@ -35,6 +35,7 @@
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             pnlSubMenu = new Panel();
             pnlvline1 = new Panel();
+            btnEliminar = new Button();
             lblpnl1_2 = new Label();
             lblpnli1_1 = new Label();
             lblpnlTotalInquilinos = new Label();
@@ -51,9 +52,9 @@
             lblpnl3_1 = new Label();
             lblpnlComerciales = new Label();
             pnlSearch = new Panel();
+            imgSearch = new PictureBox();
             textBox1 = new TextBox();
             label9 = new Label();
-            imgSearch = new PictureBox();
             tableLayoutPanel1 = new TableLayoutPanel();
             dtgInquilinos = new DataGridView();
             int_codInq = new DataGridViewTextBoxColumn();
@@ -62,6 +63,8 @@
             str_tipo = new DataGridViewTextBoxColumn();
             tbBody = new TableLayoutPanel();
             pnlBody = new Panel();
+            pnlControl = new Panel();
+            btnAgregar = new Button();
             pnlSubMenu.SuspendLayout();
             pnlbackInfo1.SuspendLayout();
             pnlPestaña.SuspendLayout();
@@ -74,16 +77,19 @@
             ((System.ComponentModel.ISupportInitialize)dtgInquilinos).BeginInit();
             tbBody.SuspendLayout();
             pnlBody.SuspendLayout();
+            pnlControl.SuspendLayout();
             SuspendLayout();
             // 
             // pnlSubMenu
             // 
+            pnlSubMenu.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             pnlSubMenu.BackColor = Color.FromArgb(240, 240, 240);
             pnlSubMenu.Controls.Add(pnlvline1);
-            pnlSubMenu.Dock = DockStyle.Right;
-            pnlSubMenu.Location = new Point(983, 0);
+            pnlSubMenu.Location = new Point(985, 0);
+            pnlSubMenu.MaximumSize = new Size(400, 1080);
+            pnlSubMenu.MinimumSize = new Size(360, 729);
             pnlSubMenu.Name = "pnlSubMenu";
-            pnlSubMenu.Size = new Size(361, 729);
+            pnlSubMenu.Size = new Size(360, 730);
             pnlSubMenu.TabIndex = 0;
             // 
             // pnlvline1
@@ -92,8 +98,24 @@
             pnlvline1.BackColor = Color.LightGray;
             pnlvline1.Location = new Point(0, 0);
             pnlvline1.Name = "pnlvline1";
-            pnlvline1.Size = new Size(1, 1100);
+            pnlvline1.Size = new Size(1, 1101);
             pnlvline1.TabIndex = 2;
+            // 
+            // btnEliminar
+            // 
+            btnEliminar.BackColor = Color.FromArgb(224, 80, 44);
+            btnEliminar.FlatAppearance.BorderSize = 0;
+            btnEliminar.FlatStyle = FlatStyle.Flat;
+            btnEliminar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnEliminar.ForeColor = SystemColors.ButtonHighlight;
+            btnEliminar.Image = Properties.Resources.pngBorrar_20px;
+            btnEliminar.ImageAlign = ContentAlignment.MiddleLeft;
+            btnEliminar.Location = new Point(410, 6);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(100, 33);
+            btnEliminar.TabIndex = 11;
+            btnEliminar.Text = "    Eliminar";
+            btnEliminar.UseVisualStyleBackColor = false;
             // 
             // lblpnl1_2
             // 
@@ -280,6 +302,18 @@
             pnlSearch.Size = new Size(680, 79);
             pnlSearch.TabIndex = 5;
             // 
+            // imgSearch
+            // 
+            imgSearch.BackColor = SystemColors.Window;
+            imgSearch.BackgroundImageLayout = ImageLayout.Center;
+            imgSearch.Image = Properties.Resources.pngLupa_100px;
+            imgSearch.Location = new Point(642, 35);
+            imgSearch.Name = "imgSearch";
+            imgSearch.Size = new Size(26, 26);
+            imgSearch.SizeMode = PictureBoxSizeMode.StretchImage;
+            imgSearch.TabIndex = 2;
+            imgSearch.TabStop = false;
+            // 
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
@@ -301,18 +335,6 @@
             label9.Size = new Size(108, 17);
             label9.TabIndex = 0;
             label9.Text = "Buscar inquilinos:";
-            // 
-            // imgSearch
-            // 
-            imgSearch.BackColor = SystemColors.Window;
-            imgSearch.BackgroundImageLayout = ImageLayout.Center;
-            imgSearch.Image = Properties.Resources.pngLupa_100px;
-            imgSearch.Location = new Point(642, 35);
-            imgSearch.Name = "imgSearch";
-            imgSearch.Size = new Size(26, 26);
-            imgSearch.SizeMode = PictureBoxSizeMode.StretchImage;
-            imgSearch.TabIndex = 2;
-            imgSearch.TabStop = false;
             // 
             // tableLayoutPanel1
             // 
@@ -363,12 +385,12 @@
             dtgInquilinos.DefaultCellStyle = dataGridViewCellStyle4;
             dtgInquilinos.EnableHeadersVisualStyles = false;
             dtgInquilinos.GridColor = Color.White;
-            dtgInquilinos.Location = new Point(5, 213);
+            dtgInquilinos.Location = new Point(3, 250);
             dtgInquilinos.Name = "dtgInquilinos";
             dtgInquilinos.ReadOnly = true;
             dtgInquilinos.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dtgInquilinos.RowHeadersVisible = false;
-            dtgInquilinos.Size = new Size(680, 502);
+            dtgInquilinos.Size = new Size(680, 460);
             dtgInquilinos.TabIndex = 9;
             // 
             // int_codInq
@@ -417,22 +439,50 @@
             tbBody.Name = "tbBody";
             tbBody.RowCount = 1;
             tbBody.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tbBody.Size = new Size(930, 730);
+            tbBody.Size = new Size(932, 730);
             tbBody.TabIndex = 10;
             // 
             // pnlBody
             // 
             pnlBody.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pnlBody.BackColor = Color.WhiteSmoke;
+            pnlBody.Controls.Add(pnlControl);
             pnlBody.Controls.Add(pnlSearch);
             pnlBody.Controls.Add(dtgInquilinos);
             pnlBody.Controls.Add(tableLayoutPanel1);
-            pnlBody.Location = new Point(122, 0);
+            pnlBody.Location = new Point(123, 0);
             pnlBody.Margin = new Padding(7, 0, 7, 7);
             pnlBody.MaximumSize = new Size(885, 1500);
             pnlBody.Name = "pnlBody";
             pnlBody.Size = new Size(686, 723);
             pnlBody.TabIndex = 0;
+            // 
+            // pnlControl
+            // 
+            pnlControl.BackColor = SystemColors.Menu;
+            pnlControl.Controls.Add(btnEliminar);
+            pnlControl.Controls.Add(btnAgregar);
+            pnlControl.Location = new Point(3, 206);
+            pnlControl.Name = "pnlControl";
+            pnlControl.Size = new Size(680, 44);
+            pnlControl.TabIndex = 10;
+            // 
+            // btnAgregar
+            // 
+            btnAgregar.BackColor = Color.SeaGreen;
+            btnAgregar.FlatAppearance.BorderSize = 0;
+            btnAgregar.FlatStyle = FlatStyle.Flat;
+            btnAgregar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnAgregar.ForeColor = SystemColors.ButtonHighlight;
+            btnAgregar.Image = Properties.Resources.pngAdd_20px;
+            btnAgregar.ImageAlign = ContentAlignment.MiddleLeft;
+            btnAgregar.Location = new Point(516, 6);
+            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Size = new Size(161, 34);
+            btnAgregar.TabIndex = 10;
+            btnAgregar.Text = "    Agregar inquilinos";
+            btnAgregar.UseVisualStyleBackColor = false;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // frmInquilinos
             // 
@@ -463,6 +513,7 @@
             ((System.ComponentModel.ISupportInitialize)dtgInquilinos).EndInit();
             tbBody.ResumeLayout(false);
             pnlBody.ResumeLayout(false);
+            pnlControl.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -499,5 +550,8 @@
         private DataGridViewTextBoxColumn str_apenom;
         private DataGridViewTextBoxColumn str_tipo;
         private PictureBox imgSearch;
+        private Button btnEliminar;
+        private Button btnAgregar;
+        private Panel pnlControl;
     }
 }
