@@ -127,8 +127,8 @@
   <data name="pngContract_70px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngContract_70px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngEliminarC_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img3\pngEliminarC_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngImagen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngImagen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="back_patron" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back_patron.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,20 +142,38 @@
   <data name="pngVerificarC_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngVerificarC_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pngCarpeta_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngCarpeta_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngImageSubir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngImageSubir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pngConnect_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngConnect_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pnlbckImgInquilino_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pnlbckImgInquilino_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngReside_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img3\pngReside_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngPeople_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngPeople_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngEliminarC_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngEliminarC_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngEliminarC_25px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngEliminarC_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pnlbckImgInquilino_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pnlbckImgInquilino_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pngPeopleg_70px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngPeopleg_70px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pngLupa_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngLupa_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngVerificarC_30px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngVerificarC_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngAdd_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngAdd_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,11 +190,11 @@
   <data name="pngProp_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngProp_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pngVolver_28px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngVolver_28px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pngVolver_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngVolver_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tittleBannerFade2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tittleBannerFade2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tenant_logo_rw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\Tenant_logo_rw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,11 +205,17 @@
   <data name="controlCerrar_15px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\controlCerrar_15px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pngImage2_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngImage2_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="back_patron3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back_patron3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngConfig_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngConfig_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngSalir_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngSalir_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngProp_35px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngProp_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,11 +226,17 @@
   <data name="pngBorrar_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngBorrar_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngPeople_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img3\pngPeople_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngPeopleg_70px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngPeopleg_70px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tittleBannerFade2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tittleBannerFade2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngCancelImage_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngCancelImage_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngPdf_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngPdf_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngMultitud_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngMultitud_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,11 +244,20 @@
   <data name="tittleBannerFade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tittleBannerFade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="line" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngReside_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img3\pngReside_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngAgregar_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngAgregar_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngBorrar_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngBorrar_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngPdf_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngPdf_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngCerrar_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngCerrar_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="controlMaxNormal_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\controlMaxNormal_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,13 +265,22 @@
   <data name="controlMin_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\controlMin_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="noimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngAddPdf_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngAddPdf_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pngContract_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img3\pngContract_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="back_patron2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back_patron2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngVolver_28px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img3\pngVolver_28px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngAddImage_35px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngAddImage_35px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngSave_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngSave_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

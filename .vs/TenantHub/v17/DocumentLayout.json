@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\Proyectos\\TenantHub\\TenantHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|d:\\proyectos\\tenanthub\\tenanthub\\tenant\\ucaddinquilino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|solutionrelative:tenant\\ucaddinquilino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|d:\\proyectos\\tenanthub\\tenanthub\\tenant\\frminquilinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|solutionrelative:tenant\\frminquilinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|d:\\proyectos\\tenanthub\\tenanthub\\tenant\\ucaddinquilino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|solutionrelative:tenant\\ucaddinquilino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2E81FFFA-BA01-4947-9400-916A93EE2E95}|Tenant_BE\\Tenant_BE.csproj|d:\\proyectos\\tenanthub\\tenanthub\\tenant_be\\documento_be.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E81FFFA-BA01-4947-9400-916A93EE2E95}|Tenant_BE\\Tenant_BE.csproj|solutionrelative:tenant_be\\documento_be.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|D:\\Proyectos\\TenantHub\\TenantHub\\tenant\\ucaddinquilino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|solutionrelative:tenant\\ucaddinquilino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DB3376-5415-4C7E-813A-C209CBFBBD7E}|Tenant_BL\\Tenant_BL.csproj|d:\\proyectos\\tenanthub\\tenanthub\\tenant_bl\\system_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DB3376-5415-4C7E-813A-C209CBFBBD7E}|Tenant_BL\\Tenant_BL.csproj|solutionrelative:tenant_bl\\system_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|D:\\Proyectos\\TenantHub\\TenantHub\\tenant\\frminquilinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|solutionrelative:tenant\\frminquilinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|D:\\Proyectos\\TenantHub\\TenantHub\\tenant\\frminquilinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|solutionrelative:tenant\\frminquilinos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|d:\\proyectos\\tenanthub\\tenanthub\\tenant\\frmload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F750B18D-F983-4DFC-AF81-CB7954545CF1}|Tenant\\Tenant.csproj|solutionrelative:tenant\\frmload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,31 +71,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ucAddInquilino.cs",
-              "DocumentMoniker": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\ucAddInquilino.cs",
-              "RelativeDocumentMoniker": "Tenant\\ucAddInquilino.cs",
-              "ToolTip": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\ucAddInquilino.cs",
-              "RelativeToolTip": "Tenant\\ucAddInquilino.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T21:26:38.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmInquilinos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\frmInquilinos.cs",
-              "RelativeDocumentMoniker": "Tenant\\frmInquilinos.cs",
-              "ToolTip": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\frmInquilinos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Tenant\\frmInquilinos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T20:10:50.247Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ucAddInquilino.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\ucAddInquilino.cs",
               "RelativeDocumentMoniker": "Tenant\\ucAddInquilino.cs",
@@ -96,12 +83,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "System_BL.cs",
+              "DocumentMoniker": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant_BL\\System_BL.cs",
+              "RelativeDocumentMoniker": "Tenant_BL\\System_BL.cs",
+              "ToolTip": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant_BL\\System_BL.cs",
+              "RelativeToolTip": "Tenant_BL\\System_BL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T16:27:07.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ucAddInquilino.cs",
+              "DocumentMoniker": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\ucAddInquilino.cs",
+              "RelativeDocumentMoniker": "Tenant\\ucAddInquilino.cs",
+              "ToolTip": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\ucAddInquilino.cs",
+              "RelativeToolTip": "Tenant\\ucAddInquilino.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAAIUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T21:26:38.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmInquilinos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\frmInquilinos.cs",
+              "RelativeDocumentMoniker": "Tenant\\frmInquilinos.cs",
+              "ToolTip": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\frmInquilinos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Tenant\\frmInquilinos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:10:50.247Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "frmInquilinos.cs",
               "DocumentMoniker": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\frmInquilinos.cs",
               "RelativeDocumentMoniker": "Tenant\\frmInquilinos.cs",
               "ToolTip": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\frmInquilinos.cs",
               "RelativeToolTip": "Tenant\\frmInquilinos.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAvwDEAAAAOAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIAwwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T20:57:59.893Z",
               "EditorCaption": ""
@@ -115,6 +140,53 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "bd09c7cd-290c-4040-97a4-2714322def9e",
+        "Display": 1,
+        "X": 17,
+        "Y": 0,
+        "Width": 1348,
+        "Height": 725,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmLoad.cs",
+              "DocumentMoniker": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\frmLoad.cs",
+              "RelativeDocumentMoniker": "Tenant\\frmLoad.cs",
+              "ToolTip": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant\\frmLoad.cs",
+              "RelativeToolTip": "Tenant\\frmLoad.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwDoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T16:29:40.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Documento_BE.cs",
+              "DocumentMoniker": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant_BE\\Documento_BE.cs",
+              "RelativeDocumentMoniker": "Tenant_BE\\Documento_BE.cs",
+              "ToolTip": "D:\\Proyectos\\TenantHub\\TenantHub\\Tenant_BE\\Documento_BE.cs",
+              "RelativeToolTip": "Tenant_BE\\Documento_BE.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T16:34:22.464Z",
+              "EditorCaption": ""
             }
           ]
         }

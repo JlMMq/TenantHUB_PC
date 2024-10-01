@@ -153,6 +153,16 @@ namespace Tenant.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap noimage {
+            get {
+                object obj = ResourceManager.GetObject("noimage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngAdd_20px {
             get {
                 object obj = ResourceManager.GetObject("pngAdd_20px", resourceCulture);
@@ -173,6 +183,36 @@ namespace Tenant.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngAddImage_35px {
+            get {
+                object obj = ResourceManager.GetObject("pngAddImage_35px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngAddPdf_35px {
+            get {
+                object obj = ResourceManager.GetObject("pngAddPdf_35px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngAgregar_35px {
+            get {
+                object obj = ResourceManager.GetObject("pngAgregar_35px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngBorrar_20px {
             get {
                 object obj = ResourceManager.GetObject("pngBorrar_20px", resourceCulture);
@@ -186,6 +226,36 @@ namespace Tenant.Properties {
         internal static System.Drawing.Bitmap pngBorrar_35px {
             get {
                 object obj = ResourceManager.GetObject("pngBorrar_35px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngCancelImage_35px {
+            get {
+                object obj = ResourceManager.GetObject("pngCancelImage_35px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngCarpeta_35px {
+            get {
+                object obj = ResourceManager.GetObject("pngCarpeta_35px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngCerrar_35px {
+            get {
+                object obj = ResourceManager.GetObject("pngCerrar_35px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,6 +313,46 @@ namespace Tenant.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngEliminarC_25px1 {
+            get {
+                object obj = ResourceManager.GetObject("pngEliminarC_25px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngImage2_100px {
+            get {
+                object obj = ResourceManager.GetObject("pngImage2_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngImagen {
+            get {
+                object obj = ResourceManager.GetObject("pngImagen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngImageSubir {
+            get {
+                object obj = ResourceManager.GetObject("pngImageSubir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pnglist_35px {
             get {
                 object obj = ResourceManager.GetObject("pnglist_35px", resourceCulture);
@@ -266,6 +376,26 @@ namespace Tenant.Properties {
         internal static System.Drawing.Bitmap pngMultitud_100px {
             get {
                 object obj = ResourceManager.GetObject("pngMultitud_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngPdf_25px {
+            get {
+                object obj = ResourceManager.GetObject("pngPdf_25px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngPdf_30px {
+            get {
+                object obj = ResourceManager.GetObject("pngPdf_30px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,9 +463,39 @@ namespace Tenant.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngSalir_20px {
+            get {
+                object obj = ResourceManager.GetObject("pngSalir_20px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngSave_20px {
+            get {
+                object obj = ResourceManager.GetObject("pngSave_20px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngVerificarC_30px {
             get {
                 object obj = ResourceManager.GetObject("pngVerificarC_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngVerificarC_30px1 {
+            get {
+                object obj = ResourceManager.GetObject("pngVerificarC_30px1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -42,12 +42,17 @@ namespace Tenant
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            //pnlAdd.Visible = true;
+            ucAddInquilino.Visible = true;
         }
 
         private void btnABack_Click(object sender, EventArgs e)
         {
             //pnlAdd.Visible = false;
+        }
+
+        private void ucAddInquilino_Load(object sender, EventArgs e)
+        {
+
         }
 
         //private void tbpMain_Paint(object sender, PaintEventArgs e)

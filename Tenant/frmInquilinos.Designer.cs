@@ -34,6 +34,7 @@
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             pnlSubMenu = new Panel();
+            ucAddInquilino = new ucAddInquilino();
             pnlvline1 = new Panel();
             btnEliminar = new Button();
             lblpnl1_2 = new Label();
@@ -82,15 +83,28 @@
             // 
             // pnlSubMenu
             // 
-            pnlSubMenu.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            pnlSubMenu.AutoScroll = true;
             pnlSubMenu.BackColor = Color.FromArgb(240, 240, 240);
+            pnlSubMenu.Controls.Add(ucAddInquilino);
             pnlSubMenu.Controls.Add(pnlvline1);
-            pnlSubMenu.Location = new Point(985, 0);
+            pnlSubMenu.Dock = DockStyle.Right;
+            pnlSubMenu.Location = new Point(979, 0);
             pnlSubMenu.MaximumSize = new Size(400, 1080);
             pnlSubMenu.MinimumSize = new Size(360, 729);
             pnlSubMenu.Name = "pnlSubMenu";
-            pnlSubMenu.Size = new Size(360, 730);
+            pnlSubMenu.Size = new Size(365, 729);
             pnlSubMenu.TabIndex = 0;
+            // 
+            // ucAddInquilino
+            // 
+            ucAddInquilino.AutoScroll = true;
+            ucAddInquilino.BackColor = Color.FromArgb(240, 240, 240);
+            ucAddInquilino.Location = new Point(3, 3);
+            ucAddInquilino.Name = "ucAddInquilino";
+            ucAddInquilino.Size = new Size(342, 1006);
+            ucAddInquilino.TabIndex = 3;
+            ucAddInquilino.Visible = false;
+            ucAddInquilino.Load += ucAddInquilino_Load;
             // 
             // pnlvline1
             // 
@@ -98,7 +112,7 @@
             pnlvline1.BackColor = Color.LightGray;
             pnlvline1.Location = new Point(0, 0);
             pnlvline1.Name = "pnlvline1";
-            pnlvline1.Size = new Size(1, 1101);
+            pnlvline1.Size = new Size(1, 2772);
             pnlvline1.TabIndex = 2;
             // 
             // btnEliminar
@@ -116,6 +130,7 @@
             btnEliminar.TabIndex = 11;
             btnEliminar.Text = "    Eliminar";
             btnEliminar.UseVisualStyleBackColor = false;
+            btnEliminar.Visible = false;
             // 
             // lblpnl1_2
             // 
@@ -439,7 +454,7 @@
             tbBody.Name = "tbBody";
             tbBody.RowCount = 1;
             tbBody.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tbBody.Size = new Size(932, 730);
+            tbBody.Size = new Size(926, 730);
             tbBody.TabIndex = 10;
             // 
             // pnlBody
@@ -450,7 +465,7 @@
             pnlBody.Controls.Add(pnlSearch);
             pnlBody.Controls.Add(dtgInquilinos);
             pnlBody.Controls.Add(tableLayoutPanel1);
-            pnlBody.Location = new Point(123, 0);
+            pnlBody.Location = new Point(120, 0);
             pnlBody.Margin = new Padding(7, 0, 7, 7);
             pnlBody.MaximumSize = new Size(885, 1500);
             pnlBody.Name = "pnlBody";
@@ -553,5 +568,6 @@
         private Button btnEliminar;
         private Button btnAgregar;
         private Panel pnlControl;
+        private ucAddInquilino ucAddInquilino;
     }
 }
